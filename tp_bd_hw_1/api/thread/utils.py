@@ -1,5 +1,5 @@
 from api.queries.select import SELECT_THREAD_BY_ID_FULL 
-
+from api.queries.update import UPDATE_THREAD_POSTS
 
 def get_thread_by_id(cursor, thread_id):
     cursor.execute(SELECT_THREAD_BY_ID_FULL, [thread_id, ])#fetchone()
@@ -22,3 +22,10 @@ def get_thread_by_id(cursor, thread_id):
            "forum": thread[13],
            "user": thread[14]
            }
+           
+  
+def update_thread_posts(cursor, thread_id, posts_diff):
+    try:
+        cursor.execute(UPDATE_THREAD_POSTS, [posts_diff, thread_id])
+    except Exception as e:
+        print e

@@ -79,11 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tp_hw_1',
-        'USER': 'technopark_hw',
-        'PASSWORD': 'bUp67AxJK90',
+        'USER': 'root',
+        'PASSWORD': '28111992',
         'HOST': 'localhost',
         'PORT': '3306',
-
     }
 }
 

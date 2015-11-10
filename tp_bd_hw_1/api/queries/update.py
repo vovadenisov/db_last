@@ -63,3 +63,8 @@ UPDATE_USER = '''UPDATE user
                      name = %s
                  WHERE id = %s;
               '''
+              
+UPDATE_THREAD_POSTS = '''UPDATE thread
+                         SET posts = posts + %s
+                         WHERE id = %s
+                      '''

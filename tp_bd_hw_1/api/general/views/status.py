@@ -13,9 +13,9 @@ from tp_bd_hw_1.settings import DATABASES
 def status(request):
     __cursor = connection.cursor()
     db_name = DATABASES['default']['NAME']
-    statuses_qs = __cursor.execute(SELECT_TABLE_STATUSES.format(db_name)).fetchall()
+    __cursor.execute(SELECT_TABLE_STATUSES.format(db_name))
     statuses = {}
-    for status_ in statuses_qs:
+    for status_ in __cursor.fetchall():
         statuses[status_[0]] = status_[1]
     __cursor.close()
     return HttpResponse(dumps({

@@ -5,12 +5,14 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 
 from api.general import codes, utils as general_utils
+from api.thread.utils import update_thread_posts
 from api.queries.update import UPDATE_THREAD_DELETED_FLAG, UPDATE_THREAD_POSTS_DELETED_FLAG
-from api.queries.select import SELECT_THREAD_BY_ID
+from api.queries.select import SELECT_THREAD_BY_ID, SELECT_ROW_COUNT
 
 def change_deleted_flag_wrapper(deleted_flag):
     @csrf_exempt
     def change_deleted_flag(request):
+      try:
         __cursor = connection.cursor()
         try:
             json_request = loads(request.body) 
@@ -33,6 +35,14 @@ def change_deleted_flag_wrapper(deleted_flag):
                                            'response': 'thread not found'}))
             __cursor.execute(UPDATE_THREAD_DELETED_FLAG.format(deleted_flag), [thread_id, ]) 
             __cursor.execute(UPDATE_THREAD_POSTS_DELETED_FLAG.format(deleted_flag), [thread_id,]) 
+            __cursor.execute(SELECT_ROW_COUNT)
+            posts_diff = __cursor.fetchone()
+            if posts_diff:
+                print posts_diff
+                posts_diff = posts_diff[0]
+                if deleted_flag.upper() == 'TRUE':
+                    posts_diff = -posts_diff
+                update_thread_posts(__cursor, thread_id, posts_diff)
         except DatabaseError as db_err: 
             __cursor.close()
             return HttpResponse(dumps({'code': codes.UNKNOWN_ERR,
@@ -42,6 +52,8 @@ def change_deleted_flag_wrapper(deleted_flag):
                                    'response': {
                                        'thread': thread_id
                                     }})) 
+      except Exception as e:
+        print e
     return change_deleted_flag
 
  

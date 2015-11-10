@@ -35,7 +35,7 @@ def create(request):
         __cursor.execute(SELECT_LAST_INSERT_ID, [])
     except IntegrityError as i_err:
         __cursor.close()
-        print i_err
+        #print i_err
         return HttpResponse(dumps({'code': codes.USER_ALREADY_EXISTS,
                                    'response': 'user already exists'}))#'user already exists'})) 
 

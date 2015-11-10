@@ -1,7 +1,10 @@
 SELECT_LAST_INSERT_ID = '''
                         SELECT LAST_INSERT_ID();
                         '''
-
+                        
+SELECT_ROW_COUNT = '''SELECT ROW_COUNT()
+                   '''
+                   
 SELECT_USER_BY_EMAIL = '''SELECT id FROM user
                           WHERE email = %s;
                        '''
@@ -35,22 +38,17 @@ SELECT_ALL_POSTS_BY_FORUM = '''SELECT post.date, post.dislikes, forum.short_name
 SELECT_ALL_THREADS_BY_FORUM = '''SELECT thread.date, thread.dislikes, forum.short_name,
                                         thread.id, thread.isClosed, thread.isDeleted, 
                                         thread.likes, thread.message,
-                                        thread.likes - thread.dislikes as points, IFNULL(posts.count, 0) as posts, 
+                                        thread.likes - thread.dislikes as points, posts, 
                                         thread.slug, thread.title, user.email,
                                         forum.id,  user.id
                                  FROM thread INNER JOIN forum ON thread.forum_id = forum.id
                                  INNER JOIN user ON user.id = thread.user_id
-                                 LEFT JOIN (SELECT thread_id, COUNT(*) as count
-                                             FROM post
-                                             WHERE isDeleted = FALSE
-                                             GROUP BY thread_id) posts ON posts.thread_id = thread.id
                                  WHERE thread.forum_id = %s
                               '''
                               
 
-SELECT_USER_ID_BY_FORUM = '''SELECT DISTINCT user.id
-                             FROM user INNER JOIN post
-                             ON user.id = post.user_id
+SELECT_USER_ID_BY_FORUM = '''SELECT DISTINCT user_id
+                             FROM post JOIN user ON user.id = post.user_id
                              WHERE post.forum_id = %s
                           '''
                           
@@ -93,15 +91,11 @@ SELECT_POST_BY_ID =  '''
 SELECT_THREADS_BY_FORUM_OR_USER = '''SELECT thread.date, thread.dislikes, forum.short_name,
                                             thread.id, thread.isClosed, thread.isDeleted, 
                                             thread.likes, thread.message,
-                                            thread.likes - thread.dislikes as points, IFNULL(posts.count, 0) as posts, 
+                                            thread.likes - thread.dislikes as points, posts, 
                                             thread.slug, thread.title, user.email,
                                             forum.id,  user.id
                                      FROM thread INNER JOIN forum ON thread.forum_id = forum.id
                                      INNER JOIN user ON user.id = thread.user_id
-                                     LEFT JOIN (SELECT thread_id, COUNT(*) as count
-                                                FROM post
-                                                WHERE isDeleted = FALSE
-                                                GROUP BY thread_id) posts ON posts.thread_id = thread.id
                                      WHERE thread.{}_id = %s
                                   '''
 
@@ -117,8 +111,7 @@ SELECT_ALL_POSTS_BY_THREAD = '''SELECT post.date, post.dislikes, forum.short_nam
                             '''
                             
 SELECT_FOLLOW_RELATIONS = '''SELECT user.id
-                             FROM user JOIN followers
-                             ON user.id = followers.{}_id
+                             FROM followers JOIN user ON user.id = {}_id
                              WHERE {}_id = %s 
                            '''
                            
@@ -130,7 +123,7 @@ SELECT_POSTS_BY_USER = '''SELECT post.date, post.dislikes, forum.short_name,
                                  user.email
                           FROM post JOIN user ON post.user_id = user.id
                                JOIN forum ON forum.id = post.forum_id
-                          WHERE user.id = %s '''
+                          WHERE post.user_id = %s '''
                           
 SELECT_POST_BY_ID_FULL = ''' SELECT post.date, post.dislikes, forum.short_name, post.id,
                                     post.isApproved, post.isDeleted, post.isEdited, post.isHighlighted, 
@@ -146,17 +139,13 @@ SELECT_POST_BY_ID_FULL = ''' SELECT post.date, post.dislikes, forum.short_name, 
 
 SELECT_THREAD_BY_ID_FULL = '''SELECT thread.date, thread.dislikes, forum.short_name, thread.id, 
                                    thread.isClosed, thread.isDeleted, thread.likes, thread.message,
-                                   thread.likes - thread.dislikes as points, IFNULL(posts.count, 0) as posts, 
+                                   thread.likes - thread.dislikes as points, posts, 
                                    thread.slug, thread.title, user.email,
                                    forum.id, user.id
                                    
                             FROM thread INNER JOIN user
                             ON thread.user_id = user.id
                             INNER JOIN forum ON forum.id = thread.forum_id
-                            LEFT JOIN (SELECT thread_id, COUNT(*) as count
-                                        FROM post
-                                        WHERE isDeleted = FALSE
-                                        GROUP BY thread_id) posts ON posts.thread_id = thread.id
                             WHERE thread.id = %s;
                         '''
                         
@@ -180,3 +169,8 @@ SELECT_SUBSCRIPTIONS = '''SELECT thread_id
                           FROM subscriptions
                           WHERE user_id = %s
                        '''
+                       
+SELECT_THREAD_BY_POST_ID = '''SELECT thread_id
+                                   FROM post
+                                   WHERE id = %s
+                                '''

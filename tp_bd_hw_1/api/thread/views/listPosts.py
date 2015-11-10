@@ -95,7 +95,7 @@ def listPosts(request):
                 limit = max_posts_number - limit + 1
                 if limit < 1:
                     limit = 1
-            get_all_posts_specified_query += "AND SUBSTR(post.hierarchy_id, 1, 1) {} '{}' ".format(operation, limit) + \
+            get_all_posts_specified_query += "AND post.hierarchy_id {} '{}' ".format(operation, limit) + \
                                               get_all_posts_query_postfix
     else:
         get_all_posts_specified_query += get_all_posts_query_postfix
