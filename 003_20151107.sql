@@ -1,2 +1,0 @@
-USE tp_hw_1;
-ALTER TABLE thread ADD COLUMN posts INT NOT NULL DEFAULT 0;
