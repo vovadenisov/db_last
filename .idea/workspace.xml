@@ -2,88 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f3fe459-7a0d-4f33-bb26-3149de6dbc03" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/001_20150926.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/002_20151011.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/003_20151107.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/004_20151107.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Baseline.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/tp_bd_hw_1.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/allviews.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views/create.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views/details.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views/listPosts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views/listThreads.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/forum/views/listUsers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/codes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/views/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/views/clear.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/general/views/status.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/allviews.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/change_delete_flag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/create.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/details.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/update.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/post/views/vote.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/alter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/delete.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/insert.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/select.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/queries/update.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/allviews.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/change_deleted_flag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/create.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/details.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/listPosts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/subscribe.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/unsubscribe.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/update.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/thread/views/vote.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/allviews.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/create.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/details.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/follow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/listPosts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/listRelations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/unfollow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/api/user/views/updateProfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/pylint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/tp_bd_hw_1/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/tp_bd_hw_1/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/tp_bd_hw_1/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tp_bd_hw_1/tp_bd_hw_1/wsgi.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="db_hw_1.iws" />
@@ -118,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_tp/db/queries/alter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.035545025" vertical-offset="0" max-vertical-offset="422">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -143,6 +61,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2745">
               <caret line="177" column="26" selection-start-line="177" selection-start-column="26" selection-end-line="177" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db_tp/db_tp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7109005" vertical-offset="630" max-vertical-offset="1410">
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -191,7 +119,6 @@
         <option value="$PROJECT_DIR$/tp_bd_hw_1/api/post/views.py" />
         <option value="$PROJECT_DIR$/tp_bd_hw_1/tp_bd_hw_1/settings.py" />
         <option value="$PROJECT_DIR$/db_tp/manage.py" />
-        <option value="$PROJECT_DIR$/db_tp/db_tp/settings.py" />
         <option value="$PROJECT_DIR$/db_tp/db_tp/wsgi.py" />
         <option value="$PROJECT_DIR$/db_tp/db/general/views.py" />
         <option value="$PROJECT_DIR$/db_tp/db/forum/views.py" />
@@ -199,6 +126,7 @@
         <option value="$PROJECT_DIR$/db_tp/db/queries/select.py" />
         <option value="$PROJECT_DIR$/db_tp/db/queries/delete.py" />
         <option value="$PROJECT_DIR$/db_tp/db/queries/insert.py" />
+        <option value="$PROJECT_DIR$/db_tp/db_tp/settings.py" />
       </list>
     </option>
   </component>
@@ -286,28 +214,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db_hw_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db_tp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db_tp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="queries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -500,24 +406,24 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26022306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33885542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298193" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26022306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33885542" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990964" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -631,14 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db_tp/db_tp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1410">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_tp/db/forum/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6120">
@@ -681,8 +579,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_tp/db/queries/alter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.035545025" vertical-offset="0" max-vertical-offset="422">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_tp/db_tp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7109005" vertical-offset="630" max-vertical-offset="1410">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
           <folding />
         </state>
       </provider>
